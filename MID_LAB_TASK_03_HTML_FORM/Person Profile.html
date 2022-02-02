@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <center>
+        <form action="#" method="">
+            <table style="width: 800px;border: 1px solid black;border-collapse: collapse;">
+                <tr height="60px">
+                    <td colspan="3" align="center" style="font-weight: bold;font-size: 20px;">PERSON PROFILE</td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td style="width:20%;border: 1px solid black;"><label for="name">Name</label></td>
+                    <td style="width:70%;border: 1px solid black;"><input type="text" id="name"></td>
+                    <td></td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td style="width:20%;border: 1px solid black;"><label for="email">Email</label></td>
+                    <td style="width:70%;border: 1px solid black;"><input type="email" name="email" id="email"></td>
+                    <td></td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td style="width:20%;border: 1px solid black;">Gender</td>
+                    <td style="width:70%;border: 1px solid black;">
+                        <input type="radio" name="gender" value=""> Male
+						<input type="radio" name="gender" value=""> Female
+						<input type="radio" name="gender" value=""> Other
+                    </td>
+                    <td></td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td style="width:20%;border: 1px solid black;">Date of Birth</td>
+                    <td style="width:70%;border: 1px solid black;"><input type="date"></td>
+                    <td></td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td style="width:20%;border: 1px solid black;">Blood Group</td>
+                    <td style="width:70%;border: 1px solid black;">
+                        <select name="bg">
+							<option value="">O+</option>
+                            <option value="">O-</option>
+                            <option value="">A+</option>
+                            <option value="">A-</option>
+                            <option value="">AB+</option>
+                            <option value="">AB-</option>
+                            <option value="">B+</option>
+                            <option value="">B-</option>
+						</select>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td style="width:20%;border: 1px solid black;">Degree</td>
+                    <td style="width:70%;border: 1px solid black;">
+                        <input type="checkbox" name="degree" value=""> SSC 
+						<input type="checkbox" name="degree" value=""> HSC 
+						<input type="checkbox" name="degree" value=""> BSc.
+                        <input type="checkbox" name="degree" value=""> MSc.
+                    </td>
+                    <td></td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td style="width:20%;border: 1px solid black;"> <label for="photo">Photo</label> </td>
+                    <td style="width:70%;border: 1px solid black;"><input type="file" id="photo" name="photo" accept="image/*"></td>
+                </tr>
+                <tr style="border:1px solid black;height:40px">
+                    <td></td>
+                </tr>
+                <tr style="border:1px solid black;height:50px">
+                    <td colspan="3" align="right">
+                        <input type="submit" name="submit" value="Submit">
+                        <input type="reset" name="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    
+</body>
+</html>
