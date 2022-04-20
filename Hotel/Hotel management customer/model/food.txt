@@ -1,0 +1,5 @@
+{"UserName":"haxor","FoodType":"Rice"}
+ {"UserName":"haxor","FoodType":"Rice"}
+ {"UserName":"haxor","FoodType":"Rice"}
+ {"UserName":"haxor","FoodType":"ChickenCurry"}
+ 
